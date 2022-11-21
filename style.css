@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 40vh;
+    color: #33373a;
+}
+
+.title-container {
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 100%;
+    font-family: cursive;
+}
+
+.title-container h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.title-container p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content-container {
+    background: gray;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: sticky;
+    margin-bottom: 40px;
+    top: 0;
+    /* background: linear-gradient(0deg); */
+}
+
+.money {
+    font-size: 24px;
+    margin: 0 20px;
+    padding-right: 50px;
+}
+
+.percent {
+    font-size: 24px;
+    margin: 0 20px;
+    padding-left: 150px;
+}
+.content-container p {
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.app-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.app-container .element img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.app-container .element2 img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.element {
+    max-width: 380px;
+    margin: 20px 30px;
+    object-fit: cover;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(104, 113, 120, 1) 0%, rgba(83, 90, 95, 1) 100%);
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset, rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+}
+.btn-sell{
+    background-color: rgb(243, 119, 140);
+}
+.btn-buy{
+    background-color: aquamarine;
+}
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+span#rice{
+    padding-bottom: 20px;
+}
+.buyAndSellContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.element p{
+    font-size: 20px;
+    padding: 3px;
+}
+.element span{
+    font-size: 18px;
+}
+/* .allElement.app-container{
+    grid-template-columns: auto auto auto;
+} */
+.receipt h1{
+    padding: 10px;
+    font-size: 25px;
+}
+h1{
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.btn-print button{
+    background-color: #535A5F;
+    color: white;
+}
+button{
+    cursor: pointer;
+    padding: 15px 20px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin: 18px;
+   
+}
+.btn-print{
+    display: flex;
+    justify-content: center;
+}
+.small{
+    font-size: smaller;
+    font-family: 'Poppins', sans-serif;
+}
+.coffe-link{
+    text-align: center;
+    font-size: 18px;
+}
+.link{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(49, 92, 49);
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="title-container">
+            <img src="./image/anh1.jpg">
+            <h1>Spend Elon Musk's Fortune!</h1>
+            <p>If Elon cashed out all of his stocks & assets today he would have<br>
+                approximately <strong>$217.000.000.000</strong>
+                (US Dollars) in his bank account.
+            </p>
+            <p>
+                ¿What would you
+                <strong>spend it</strong>
+                on?
+            </p>
+            <p>Have your receipt at the end!</p>
+        </div>
+        <div class="content-container">
+            <p class="money" id="money">
+                <!-- <p id="money">Remaining: 217,000,000,000 USD</p> -->
+            <p class="percent" id="percent">
+                <!-- <p id="percent">You only spent 0.000000 % of the total!</p> -->
+            </p>
+        </div>
+        <div class="app-container" id="allElement">
+            <!-- <div class="element">
+                <img src="./image/anh2.jpg" alt="AirPod">
+                <p id="name">AirPod</p>
+                <span id="price">USD 249</span>
+                <div class="buyAndSellContainer" data-price="249">
+                    <button class="btn-sell" id="sell" disabled>Sell</button>
+                    <span id="amount">0</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </div>
+            <div class="element">
+                <img src="./image/anh3.jpg" alt="Nintendo Switch">
+                <p id="name">Nintendo Switch</p>
+                <span id="price">USD 299</span>
+                <div class="buyAndSellContainer" data-price="299">
+                    <button class="btn-sell" id="sell" disabled>Sell</button>
+                    <span id="amount">0</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </div>
+            <div class="element">
+                <img src="./image/anh4.jpg" alt="PS5">
+                <p id="name">PS5</p>
+                <span id="price">USD 499</span>
+                <div class="buyAndSellContainer" data-price="499">
+                    <button class="btn-sell" id="sell" disabled>Sell</button>
+                    <span id="amount">0</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </div>
+            <div class="element">
+                <img src="./image/anh5.jpg" alt="Xbox Series X">
+                <p id="name">Xbox Series X</p>
+                <span id="price">USD 499</span>
+                <div class="buyAndSellContainer" data-price="499">
+                    <button class="btn-sell" id="sell" disabled>Sell</button>
+                    <span id="amount">0</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </div>
+            <div class="element">
+                <img src="./image/anh6.jpg" alt="Iphone 14 Pro Max">
+                <p id="name">Iphone 14 Pro Max</p>
+                <span id="price">USD 1,599</span>
+                <div class="buyAndSellContainer" data-price="1,599">
+                    <button class="btn-sell" id="sell" disabled>Sell</button>
+                    <span id="amount">0</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </div>
+            <div class="element">
+                <img src="./image/anh7.jpg" alt="Samsung S22 Ultra">
+                <p id="name">Samsung S22 Ultra</p>
+                <span id="price">USD 1,399</span>
+                <div class="buyAndSellContainer" data-rice="1,399">
+                    <button class="btn-sell" id="sell" disabled>Sell</button>
+                    <span id="amount">0</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </div>
+            <div class="element">
+                <img src="./image/anh8.jpg" alt="MacBook Pro 14' M1 Max     ">
+                <p id="name">MacBook Pro 14' M1 Max </p>
+                <span id="price">USD 4,699</span>
+                <div class="buyAndSellContainer" data-rice="4,699">
+                    <button class="btn-sell" id="sell" disabled>Sell</button>
+                    <span id="amount">0</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </div>
+            <div class="element">
+                <img src="./image/anh9.jpg" alt="2022 Mac Studio M1 Ultra">
+                <p id="name">2022 Mac Studio M1 Ultra</p>
+                <span id="price">USD 6,999</span>
+                <div class="buyAndSellContainer" data-rice="6,999">
+                    <button class="btn-sell" id="sell" disabled>Sell</button>
+                    <span id="amount">0</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </div>
+            <div class="element">
+                <img src="./image/anh10.jpg" alt="Pro Gaming PC">
+                <p id="name">Pro Gaming PC</p>
+                <span id="price">USD 4,950</span>
+                <div class="buyAndSellContainer" data-rice="4,950">
+                    <button class="btn-sell" id="sell" disabled>Sell</button>
+                    <span id="amount">0</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </div>
+            <div class="element">
+                <img src="./image/anh11.jpg" alt="Razer Blade 14 Top spec">
+                <p id="name">Razer Blade 14 Top spec</p>
+                <span id="price">USD 2,799</span>
+                <div class="buyAndSellContainer" data-rice="2,799">
+                    <button class="btn-sell" id="sell" disabled>Sell</button>
+                    <span id="amount">0</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </div> -->
+        </div>
+        <div class="receipt" id="receipt-container">
+            <h1>Receipt</h1>
+        </div>
+        <a class="btn-print" onclick="printSection('receipt-container')">
+            <button>Print Receipt</button>
+        </a>
+        <div class="coffe-link">
+            <small>Inspired by
+                <a class="link" href="https://www.facebook.com/profile.php?id=100033047352978">hi.hi</a>
+                , created by Hihi
+            </small>
+        </div>
+    </header>
+</body>
+<script src="./index.js"></script>
+</html>
